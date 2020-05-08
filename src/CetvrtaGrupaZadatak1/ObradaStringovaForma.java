@@ -13,6 +13,7 @@ public class ObradaStringovaForma extends javax.swing.JFrame {
     public ObradaStringovaForma() {
         initComponents();
         jPanel.setBorder(BorderFactory.createTitledBorder(null, "Unos stringa", 0, 1,new Font(Font.SERIF, Font.PLAIN,  10), Color.blue));
+        int a=10;
     }
 
     /**
