@@ -3,18 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package vodostaj.reka;
+package SestaGrupaZadatak3;
 
 /**
  *
  * @author Jana Jovanovic
  */
-public class ExceptionNedozvoljenaVrednost extends RuntimeException{
+public class DemografijaException extends RuntimeException{
 
-    public ExceptionNedozvoljenaVrednost(String message) {
+    public DemografijaException(String message) {
         super(message);
     }
-    
-    
     
 }
